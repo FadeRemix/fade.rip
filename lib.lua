@@ -4593,7 +4593,7 @@ function library:init()
                 {'00:00:00', false},
                 {'M, D, Y', true},
             };
-            lock = 'custom';
+            lock = 'top';
             position = newUDim2(0,0,0,0);
             refreshrate = 25;
         }
