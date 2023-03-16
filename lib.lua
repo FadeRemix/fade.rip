@@ -4586,7 +4586,7 @@ function library:init()
             objects = {};
             text = {
                 {"fade.rip", true},
-                {"Welcome, ".. game.Players.LocalPlayer.DisplayName.."!", true},
+                {"Welcome, ".. game.Players.LocalPlayer.Name.."!", true},
                 {self.gamename, false},
                 {'0 fps', true},
                 {'0ms', true},
