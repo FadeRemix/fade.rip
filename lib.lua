@@ -4586,7 +4586,7 @@ function library:init()
             objects = {};
             text = {
                 {"fade.rip", true},
-                {"Welcome, ".. game.Players.LocalPlayer.Name.."!", true},
+                {"Welcome, ".. game.Players.LocalPlayer.Name.."!", False},
                 {self.gamename, false},
                 {'0 fps', true},
                 {'0ms', true},
@@ -4857,7 +4857,7 @@ function library:CreateSettingsTab(menu)
                 break
             end
         end
-        setByPreset = false
+        setByPreset = true
     end}):Select('Nekocheat');
 
     for i, v in pairs(library.theme) do
