@@ -4586,7 +4586,7 @@ function library:init()
             objects = {};
             text = {
                 {"fade.rip", true},
-                {("%s (uid %s)"):format(IonHub_User.User, tostring(IonHub_User.UID)), true},
+                {"Welcome, ".. game.Players.LocalPlayer.DisplayName.."!", true},
                 {self.gamename, false},
                 {'0 fps', true},
                 {'0ms', true},
