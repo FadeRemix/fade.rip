@@ -985,7 +985,7 @@ function library:init()
         local i = 0
         for v in next, self.notifications do
             utility:Tween(v.holder, 'Position', newUDim2(0,0,0, 75 + (i * 30)), .15)
-            i = i+1
+            i += 1
         end
     end
 
@@ -4586,7 +4586,7 @@ function library:init()
             objects = {};
             text = {
                 {"fade.rip", true},
-                {"Welcome, ".. game.Players.LocalPlayer.Name.."!", False},
+                {"Welcome,!", false},
                 {self.gamename, false},
                 {'0 fps', true},
                 {'0ms', true},
