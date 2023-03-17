@@ -4587,7 +4587,7 @@ function library:init()
             text = {
                 {"fade.rip", true},
                 {"Welcome,!", false},
-                {self.gamename, false},
+                {"self.gamename", false},
                 {'0 fps', true},
                 {'0ms', true},
                 {'00:00:00', false},
