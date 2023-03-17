@@ -112,7 +112,7 @@ library.themes = {
     },
     {
         name = 'Tokyo Night',
-        theme = {
+        theme = {   
             ['Accent']                    = fromrgb(103,89,179);
             ['Background']                = fromrgb(22,22,31);
             ['Border']                    = fromrgb(0,0,0);
@@ -985,7 +985,7 @@ function library:init()
         local i = 0
         for v in next, self.notifications do
             utility:Tween(v.holder, 'Position', newUDim2(0,0,0, 75 + (i * 30)), .15)
-            i += 1
+            i = i+1
         end
     end
 
